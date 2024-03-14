@@ -9,5 +9,6 @@
    <!-- Styles -->
    {{-- <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
    <link href="{{ mix('css/bootstrap.css') }}" rel="stylesheet">
+   <script src="{{ mix('js/app.js') }}"></script>
 </head>
 <body>

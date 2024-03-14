@@ -15,7 +15,8 @@
     <div id="example"></div>
     <div id="testvariable" data-testvariable="{{ $testvariable }}"></div>
 
-    <script src="{{ mix('js/app.js') }}"></script>
+    {{-- ang kaning script dapat after sa dom element (div) --}}
+    <script src="{{ mix('js/app.js') }}"></script> 
     <script>
         // Assuming TestVariableComponent is a React component
         ReactDOM.render(<DashboardIndex />, document.getElementById('example'));

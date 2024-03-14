@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 //     Route::get('/index', 'TestController@testReactJS');
 // });
 Route::get('/', [TestController::class, 'index']);
+Route::get('/dashboard', [DashboardController::class, 'index']);
